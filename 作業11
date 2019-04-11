@@ -1,0 +1,30 @@
+    
+＃包括 < stdio.h中>
+＃包括 < stdlib.h中>
+
+
+int  main（void）
+{
+ int x，y，z;
+  printf（“請輸入第一個數字：”）;
+  scanf（“％d ”，＆x）;
+  printf（“請輸入第二個數字：”）;
+  scanf（“％d ”，＆y）;
+  printf（“請輸入第三個數字：”）;
+  scanf（“％d ”，＆z）;
+  if（（x> y）&&（y> z））
+  printf（“％d％d％d ”，x，y，z）;
+  否則 if（（y> x）&&（x> z））
+  printf（“％d％d％d ”，y，x，z）;
+  否則 如果（（z> y）&&（y> x））
+  printf（“％d％d％d ”，z，y，x）;
+  否則 if（（x> z）&&（z> y））
+  printf（“％d％d％d ”，x，z，y）;
+  否則 if（（y> z）&&（z> x））
+  printf（“％d％d％d ”，y，z，x）;
+  其他
+  printf（“％d％d％d ”，z，x，y）;
+  系統（“暫停”）;
+ 返回 0 ;	
+	
+}
